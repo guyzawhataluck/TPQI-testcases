@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="178172" started-at="2562-07-05T04:00:59Z" finished-at="2562-07-05T04:03:57Z">
+    <groups>
+    </groups>
+    <test name="LandingPage" duration-ms="178172" started-at="2562-07-05T04:00:59Z" finished-at="2562-07-05T04:03:57Z">
+      <class name="testcases.TestLandingPage">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:testcases.TestLandingPage@eda5c9]" name="OpenBrowser" is-config="true" duration-ms="12969" started-at="2562-07-05T11:00:59Z" finished-at="2562-07-05T11:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="ClickNews()[pri:0, instance:testcases.TestLandingPage@eda5c9]" name="ClickNews" duration-ms="40526" started-at="2562-07-05T11:01:12Z" finished-at="2562-07-05T11:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickNews -->
+        <test-method status="PASS" signature="Pause()[pri:0, instance:testcases.TestLandingPage@eda5c9]" name="Pause" is-config="true" duration-ms="3006" started-at="2562-07-05T11:01:53Z" finished-at="2562-07-05T11:01:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pause -->
+        <test-method status="PASS" signature="FillLoginForm(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestLandingPage@eda5c9]" name="FillLoginForm" duration-ms="21406" started-at="2562-07-05T11:01:56Z" data-provider="LoginData" finished-at="2562-07-05T11:02:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[unregister@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[unregistered]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[first data tested]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillLoginForm -->
+        <test-method status="PASS" signature="Pause()[pri:0, instance:testcases.TestLandingPage@eda5c9]" name="Pause" is-config="true" duration-ms="3000" started-at="2562-07-05T11:02:17Z" finished-at="2562-07-05T11:02:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pause -->
+        <test-method status="PASS" signature="FillLoginForm(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestLandingPage@eda5c9]" name="FillLoginForm" duration-ms="84149" started-at="2562-07-05T11:02:20Z" data-provider="LoginData" finished-at="2562-07-05T11:03:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aptcollie@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[second data tested]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillLoginForm -->
+        <test-method status="PASS" signature="Pause()[pri:0, instance:testcases.TestLandingPage@eda5c9]" name="Pause" is-config="true" duration-ms="3001" started-at="2562-07-05T11:03:44Z" finished-at="2562-07-05T11:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pause -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:testcases.TestLandingPage@eda5c9]" name="CloseBrowser" is-config="true" duration-ms="10093" started-at="2562-07-05T11:03:47Z" finished-at="2562-07-05T11:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- testcases.TestLandingPage -->
+    </test> <!-- LandingPage -->
+  </suite> <!-- Suite -->
+</testng-results>

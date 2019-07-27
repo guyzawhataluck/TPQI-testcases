@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="resources.ExtentReporterNG"/>
+    <listener class-name="testcases.Listeners"/>
+  </listeners>
+  <test name="LoginLandingPage">
+    <classes>
+      <class name="testcases.TestLandingPage"/>
+    </classes>
+  </test> <!-- LoginLandingPage -->
+  <test name="LoginLandingPage(failed)">
+    <classes>
+      <class name="testcases.TestLandingPage">
+        <methods>
+          <include name="FillLoginForm" invocation-numbers="1"/>
+          <include name="OpenBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- testcases.TestLandingPage -->
+    </classes>
+  </test> <!-- LoginLandingPage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

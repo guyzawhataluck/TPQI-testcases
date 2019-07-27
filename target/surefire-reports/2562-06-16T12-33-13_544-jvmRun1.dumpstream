@@ -1,0 +1,29 @@
+# Created at 2562-06-16T12:34:00.688
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2562-06-16T12:34:17.217
+Unexpected IOException: 8,1,testcases.TestHomePage,OpenBrowser(testcases.TestHomePage),null,Expected condition failed: waiting for visibility of element located by By.id: btn-dismiss-welcome-msg (tried for 20 second(s) with 500 milliseconds interval),null,Expected condition failed: waiting for visibility of element located by By.id: btn-dismiss-welcome-msg (tried for 20 second(s) with 500 milliseconds interval),TestHomePage.OpenBrowser:42 \00BB Timeout Expected condition failed: waiting for v...,org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: btn-dismiss-welcome-msg (tried for 20 second(s) with 500 milliseconds interval)\000A\0009at testcases.TestHomePage.OpenBrowser(TestHomePage.java:42)\000ACaused by: org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=74.0.3729.169)\000A  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})\002Cplatform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'HPDESKTOP'\002C ip: '192.168.1.22'\002C os.name: 'Windows 7'\002C os.arch: 'x86'\002C os.version: '6.1'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: true\002C acceptSslCerts: true\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24...\002C userDataDir: C:\005CUsers\005CGuy\005CAppData\005CLocal\005C...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:56797}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C rotatable: false\002C setWindowRect: true\002C strictFileInteractability: false\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unexpectedAlertBehaviour: ignore\002C unhandledPromptBehavior: ignore\002C version: 74.0.3729.169\002C webStorageEnabled: true}\000ASession ID: bfe1bc8c5dd7900f33a047a424eadaf1\000A*** Element info: {Using=id\002C value=btn-dismiss-welcome-msg}\000A\0009at testcases.TestHomePage.OpenBrowser(TestHomePage.java:42)\000A
+
+
+# Created at 2562-06-16T12:34:17.270
+Unexpected IOException: 5,1,testcases.TestHomePage,Comment(testcases.TestHomePage),testcases.TestHomePage,null,null
+
+
+# Created at 2562-06-16T12:34:17.283
+Unexpected IOException: 9,1,testcases.TestHomePage,Comment(testcases.TestHomePage),null,null,null
+
+
+# Created at 2562-06-16T12:34:17.289
+Unexpected IOException: 9,1,testcases.TestHomePage,CloseBrowser(testcases.TestHomePage),null,null,null
+
+
+# Created at 2562-06-16T12:34:18.899
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

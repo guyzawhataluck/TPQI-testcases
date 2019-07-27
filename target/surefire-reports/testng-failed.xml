@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="resources.ExtentReporterNG"/>
+    <listener class-name="testcases.Listeners"/>
+  </listeners>
+  <test name="LandingPage">
+    <classes>
+      <class name="testcases.TestLandingPage"/>
+    </classes>
+  </test> <!-- LandingPage -->
+</suite> <!-- Failed suite [Suite] -->
