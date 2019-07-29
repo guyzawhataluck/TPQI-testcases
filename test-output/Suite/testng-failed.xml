@@ -5,20 +5,26 @@
     <listener class-name="resources.ExtentReporterNG"/>
     <listener class-name="testcases.Listeners"/>
   </listeners>
-  <test name="LoginLandingPage">
+  <test name="NewsPage">
     <classes>
-      <class name="testcases.TestLandingPage"/>
-    </classes>
-  </test> <!-- LoginLandingPage -->
-  <test name="LoginLandingPage(failed)">
-    <classes>
-      <class name="testcases.TestLandingPage">
+      <class name="testcases.TestNewsPage">
         <methods>
-          <include name="FillLoginForm" invocation-numbers="1"/>
+          <include name="DraftNews"/>
+          <include name="SaveAndPublishNews"/>
+        </methods>
+      </class> <!-- testcases.TestNewsPage -->
+    </classes>
+  </test> <!-- NewsPage -->
+  <test name="NewsPage(failed)">
+    <classes>
+      <class name="testcases.TestNewsPage">
+        <methods>
+          <include name="SaveAndPublishNews"/>
           <include name="OpenBrowser"/>
           <include name="CloseBrowser"/>
+          <include name="RedirectToNewsPage"/>
         </methods>
-      </class> <!-- testcases.TestLandingPage -->
+      </class> <!-- testcases.TestNewsPage -->
     </classes>
-  </test> <!-- LoginLandingPage(failed) -->
+  </test> <!-- NewsPage(failed) -->
 </suite> <!-- Failed suite [Suite] -->

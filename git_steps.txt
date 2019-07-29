@@ -1,0 +1,3 @@
+initialize your file as Git repository - git init
+Stage
+Commit

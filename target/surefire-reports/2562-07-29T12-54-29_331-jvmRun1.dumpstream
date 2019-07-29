@@ -1,0 +1,246 @@
+# Created at 2562-07-29T12:58:49.908
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2562-07-29T12:59:17.172
+Unexpected IOException with stream: [
+
+# Created at 2562-07-29T12:59:17.186
+Unexpected IOException with stream: 1
+
+# Created at 2562-07-29T12:59:17.202
+Unexpected IOException with stream: 5
+
+# Created at 2562-07-29T12:59:17.213
+Unexpected IOException with stream: 6
+
+# Created at 2562-07-29T12:59:17.218
+Unexpected IOException with stream: 4
+
+# Created at 2562-07-29T12:59:17.225
+Unexpected IOException with stream: 3
+
+# Created at 2562-07-29T12:59:17.232
+Unexpected IOException with stream: 7
+
+# Created at 2562-07-29T12:59:17.237
+Unexpected IOException with stream: 9
+
+# Created at 2562-07-29T12:59:17.243
+Unexpected IOException with stream: 9
+
+# Created at 2562-07-29T12:59:17.245
+Unexpected IOException with stream: 4
+
+# Created at 2562-07-29T12:59:17.250
+Unexpected IOException with stream: 0
+
+# Created at 2562-07-29T12:59:17.253
+Unexpected IOException with stream: .
+
+# Created at 2562-07-29T12:59:17.260
+Unexpected IOException with stream: 3
+
+# Created at 2562-07-29T12:59:17.263
+Unexpected IOException with stream: 0
+
+# Created at 2562-07-29T12:59:17.269
+Unexpected IOException with stream: 6
+
+# Created at 2562-07-29T12:59:17.275
+Unexpected IOException with stream: ]
+
+# Created at 2562-07-29T12:59:17.281
+Unexpected IOException with stream: [
+
+# Created at 2562-07-29T12:59:17.287
+Unexpected IOException with stream: W
+
+# Created at 2562-07-29T12:59:17.292
+Unexpected IOException with stream: A
+
+# Created at 2562-07-29T12:59:17.298
+Unexpected IOException with stream: R
+
+# Created at 2562-07-29T12:59:17.301
+Unexpected IOException with stream: N
+
+# Created at 2562-07-29T12:59:17.304
+Unexpected IOException with stream: I
+
+# Created at 2562-07-29T12:59:17.313
+Unexpected IOException with stream: N
+
+# Created at 2562-07-29T12:59:17.318
+Unexpected IOException with stream: G
+
+# Created at 2562-07-29T12:59:17.328
+Unexpected IOException with stream: ]
+
+# Created at 2562-07-29T12:59:17.332
+Unexpected IOException with stream: :
+
+# Created at 2562-07-29T12:59:17.337
+Unexpected IOException with stream:  
+
+# Created at 2562-07-29T12:59:17.347
+Unexpected IOException with stream: T
+
+# Created at 2562-07-29T12:59:17.358
+Unexpected IOException with stream: i
+
+# Created at 2562-07-29T12:59:17.366
+Unexpected IOException with stream: m
+
+# Created at 2562-07-29T12:59:17.377
+Unexpected IOException with stream: e
+
+# Created at 2562-07-29T12:59:17.395
+Unexpected IOException with stream: d
+
+# Created at 2562-07-29T12:59:17.404
+Unexpected IOException with stream:  
+
+# Created at 2562-07-29T12:59:17.412
+Unexpected IOException with stream: o
+
+# Created at 2562-07-29T12:59:17.417
+Unexpected IOException with stream: u
+
+# Created at 2562-07-29T12:59:17.428
+Unexpected IOException with stream: t
+
+# Created at 2562-07-29T12:59:17.436
+Unexpected IOException with stream:  
+
+# Created at 2562-07-29T12:59:17.468
+Unexpected IOException: 8,1,testcases.TestNewsPage,OpenBrowser(testcases.TestNewsPage),null,chrome not reachable\000A  (Session info: chrome=75.0.3770.142)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'HPDESKTOP'\002C ip: '192.168.1.22'\002C os.name: 'Windows 7'\002C os.arch: 'x86'\002C os.version: '6.1'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: true\002C browserName: chrome\002C browserVersion: 75.0.3770.142\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005CGuy\005CAppData\005CLocal\005C...}\002C goog:chromeOptions: {debuggerAddress: localhost:54625}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: dd58a9b51c9afa2bec8f525661e183d2\000A*** Element info: {Using=id\002C value=btn-dismiss-welcome-msg},null,chrome not reachable\000A  (Session info: chrome=75.0.3770.142)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'HPDESKTOP'\002C ip: '192.168.1.22'\002C os.name: 'Windows 7'\002C os.arch: 'x86'\002C os.version: '6.1'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: true\002C browserName: chrome\002C browserVersion: 75.0.3770.142\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005CGuy\005CAppData\005CLocal\005C...}\002C goog:chromeOptions: {debuggerAddress: localhost:54625}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: dd58a9b51c9afa2bec8f525661e183d2\000A*** Element info: {Using=id\002C value=btn-dismiss-welcome-msg},TestNewsPage.OpenBrowser:51 \00BB WebDriver chrome not reachable\000A  (Session info: ...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=75.0.3770.142)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'HPDESKTOP'\002C ip: '192.168.1.22'\002C os.name: 'Windows 7'\002C os.arch: 'x86'\002C os.version: '6.1'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: true\002C browserName: chrome\002C browserVersion: 75.0.3770.142\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005CGuy\005CAppData\005CLocal\005C...}\002C goog:chromeOptions: {debuggerAddress: localhost:54625}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: dd58a9b51c9afa2bec8f525661e183d2\000A*** Element info: {Using=id\002C value=btn-dismiss-welcome-msg}\000A\0009at testcases.TestNewsPage.OpenBrowser(TestNewsPage.java:51)\000A
+
+
+# Created at 2562-07-29T12:59:17.472
+Unexpected IOException with stream: c
+
+# Created at 2562-07-29T12:59:17.481
+Unexpected IOException with stream: o
+
+# Created at 2562-07-29T12:59:17.487
+Unexpected IOException with stream: n
+
+# Created at 2562-07-29T12:59:17.504
+Unexpected IOException with stream: n
+
+# Created at 2562-07-29T12:59:17.507
+Unexpected IOException with stream: e
+
+# Created at 2562-07-29T12:59:17.517
+Unexpected IOException with stream: c
+
+# Created at 2562-07-29T12:59:17.525
+Unexpected IOException with stream: t
+
+# Created at 2562-07-29T12:59:17.551
+Unexpected IOException with stream: i
+
+# Created at 2562-07-29T12:59:17.561
+Unexpected IOException with stream: n
+
+# Created at 2562-07-29T12:59:17.570
+Unexpected IOException with stream: g
+
+# Created at 2562-07-29T12:59:17.575
+Unexpected IOException with stream:  
+
+# Created at 2562-07-29T12:59:17.578
+Unexpected IOException with stream: t
+
+# Created at 2562-07-29T12:59:17.583
+Unexpected IOException with stream: o
+
+# Created at 2562-07-29T12:59:17.591
+Unexpected IOException with stream:  
+
+# Created at 2562-07-29T12:59:17.599
+Unexpected IOException with stream: C
+
+# Created at 2562-07-29T12:59:17.602
+Unexpected IOException with stream: h
+
+# Created at 2562-07-29T12:59:17.606
+Unexpected IOException with stream: r
+
+# Created at 2562-07-29T12:59:17.624
+Unexpected IOException with stream: o
+
+# Created at 2562-07-29T12:59:17.629
+Unexpected IOException with stream: m
+
+# Created at 2562-07-29T12:59:17.641
+Unexpected IOException with stream: e
+
+# Created at 2562-07-29T12:59:17.644
+Unexpected IOException with stream: ,
+
+# Created at 2562-07-29T12:59:17.648
+Unexpected IOException with stream:  
+
+# Created at 2562-07-29T12:59:17.652
+Unexpected IOException with stream: r
+
+# Created at 2562-07-29T12:59:17.656
+Unexpected IOException with stream: e
+
+# Created at 2562-07-29T12:59:17.659
+Unexpected IOException with stream: t
+
+# Created at 2562-07-29T12:59:17.663
+Unexpected IOException with stream: r
+
+# Created at 2562-07-29T12:59:17.667
+Unexpected IOException with stream: y
+
+# Created at 2562-07-29T12:59:17.671
+Unexpected IOException with stream: i
+
+# Created at 2562-07-29T12:59:17.674
+Unexpected IOException with stream: n
+
+# Created at 2562-07-29T12:59:17.679
+Unexpected IOException with stream: g
+
+# Created at 2562-07-29T12:59:17.683
+Unexpected IOException: 5,1,testcases.TestNewsPage,SaveAndPublishNews(testcases.TestNewsPage),testcases.TestNewsPage,null,null
+
+
+# Created at 2562-07-29T12:59:17.687
+Unexpected IOException: 9,1,testcases.TestNewsPage,SaveAndPublishNews(testcases.TestNewsPage),null,null,null
+
+
+# Created at 2562-07-29T12:59:17.692
+Unexpected IOException with stream: .
+
+# Created at 2562-07-29T12:59:17.696
+Unexpected IOException with stream: .
+
+# Created at 2562-07-29T12:59:17.701
+Unexpected IOException with stream: .
+
+# Created at 2562-07-29T12:59:17.705
+Unexpected IOException with stream: 
+
+# Created at 2562-07-29T12:59:17.709
+Unexpected IOException with stream: 
+
+
+# Created at 2562-07-29T12:59:17.713
+Unexpected IOException: 9,1,testcases.TestNewsPage,CloseBrowser(testcases.TestNewsPage),null,null,null
+
+
+# Created at 2562-07-29T12:59:18.630
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

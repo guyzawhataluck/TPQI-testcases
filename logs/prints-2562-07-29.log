@@ -1,0 +1,72 @@
+18:56:44.586 [main] INFO  testcases.TestNewsPage - Initialize Driver
+18:56:47.679 [main] INFO  testcases.TestNewsPage - Open Browser
+18:57:17.133 [main] INFO  testcases.TestNewsPage - Successfully logged in
+18:57:37.762 [main] INFO  testcases.TestNewsPage - Arrived at News Page
+18:57:53.307 [main] INFO  testcases.TestNewsPage - Clear input
+18:57:53.605 [main] INFO  testcases.TestNewsPage - Clicked on draft news
+18:57:53.634 [main] DEBUG testcases.TestNewsPage - Unable to proceed to the next page (Expected result)
+18:57:54.592 [main] INFO  testcases.TestNewsPage - Title changed
+18:57:55.057 [main] INFO  testcases.TestNewsPage - Text changed
+18:57:58.331 [main] INFO  testcases.TestNewsPage - Comment switch clicked
+18:57:58.446 [main] INFO  testcases.TestNewsPage - Switched news category
+18:58:01.010 [main] INFO  testcases.TestNewsPage - Tag created
+18:58:01.952 [main] ERROR testcases.TestNewsPage - System doesn't navigate to News collection page (Unexpected result)
+18:58:05.262 [main] INFO  testcases.TestNewsPage - Arrived at News Page
+18:58:33.802 [main] INFO  testcases.TestNewsPage - Arrived at News Page
+18:58:36.530 [main] INFO  testcases.TestNewsPage - Successfully logged out
+18:58:37.047 [main] INFO  testcases.TestNewsPage - Browser Closed
+19:01:20.299 [main] INFO  testcases.TestNewsPage - Initialize Driver
+19:01:23.155 [main] INFO  testcases.TestNewsPage - Open Browser
+19:01:47.840 [main] INFO  testcases.TestNewsPage - Successfully logged in
+19:02:06.719 [main] INFO  testcases.TestNewsPage - Arrived at News Page
+19:02:12.336 [main] INFO  testcases.TestNewsPage - Total news: 19
+19:02:13.767 [main] INFO  testcases.TestNewsPage - 0
+19:02:15.081 [main] INFO  testcases.TestNewsPage - 1
+19:02:16.405 [main] INFO  testcases.TestNewsPage - 2
+19:02:19.175 [main] INFO  testcases.TestNewsPage - 3
+19:02:20.872 [main] INFO  testcases.TestNewsPage - 4
+19:02:22.375 [main] INFO  testcases.TestNewsPage - 5
+19:02:25.358 [main] INFO  testcases.TestNewsPage - 6
+19:02:26.796 [main] INFO  testcases.TestNewsPage - 7
+19:02:30.140 [main] INFO  testcases.TestNewsPage - 8
+19:02:35.628 [main] INFO  testcases.TestNewsPage - 9
+19:02:39.961 [main] INFO  testcases.TestNewsPage - 10
+19:02:41.646 [main] INFO  testcases.TestNewsPage - 11
+19:02:43.340 [main] INFO  testcases.TestNewsPage - 12
+19:02:46.198 [main] INFO  testcases.TestNewsPage - 13
+19:02:47.666 [main] INFO  testcases.TestNewsPage - 14
+19:02:49.730 [main] INFO  testcases.TestNewsPage - 15
+19:02:51.636 [main] INFO  testcases.TestNewsPage - 16
+19:03:26.994 [main] INFO  testcases.TestNewsPage - Initialize Driver
+19:03:30.019 [main] INFO  testcases.TestNewsPage - Open Browser
+19:03:36.893 [main] INFO  testcases.TestNewsPage - Successfully logged in
+19:04:16.670 [main] INFO  testcases.TestNewsPage - Initialize Driver
+19:04:19.489 [main] INFO  testcases.TestNewsPage - Open Browser
+19:04:43.948 [main] INFO  testcases.TestNewsPage - Successfully logged in
+19:05:02.801 [main] INFO  testcases.TestNewsPage - Arrived at News Page
+19:05:17.688 [main] INFO  testcases.TestNewsPage - Clear input
+19:05:18.110 [main] INFO  testcases.TestNewsPage - Clicked on draft news
+19:05:18.135 [main] DEBUG testcases.TestNewsPage - Unable to proceed to the next page (Expected result)
+19:05:18.899 [main] INFO  testcases.TestNewsPage - Title changed
+19:05:19.522 [main] INFO  testcases.TestNewsPage - Text changed
+19:05:22.796 [main] INFO  testcases.TestNewsPage - Comment switch clicked
+19:05:22.897 [main] INFO  testcases.TestNewsPage - Switched news category
+19:05:25.392 [main] INFO  testcases.TestNewsPage - Tag created
+19:05:26.371 [main] ERROR testcases.TestNewsPage - System doesn't navigate to News collection page (Unexpected result)
+19:05:33.150 [main] INFO  testcases.TestNewsPage - Successfully logged out
+19:05:48.574 [main] INFO  testcases.TestNewsPage - Successfully logged in
+19:06:04.015 [main] INFO  testcases.TestNewsPage - Arrived at News Page
+19:06:18.158 [main] INFO  testcases.TestNewsPage - Clear input
+19:06:18.311 [main] INFO  testcases.TestNewsPage - Clicked on publish news
+19:06:18.336 [main] DEBUG testcases.TestNewsPage - Unable to proceed to the next page (Expected result)
+19:06:19.310 [main] INFO  testcases.TestNewsPage - Title changed
+19:06:19.786 [main] INFO  testcases.TestNewsPage - Text changed
+19:06:23.028 [main] INFO  testcases.TestNewsPage - Comment switch clicked
+19:06:23.138 [main] INFO  testcases.TestNewsPage - Switched news category
+19:06:25.607 [main] INFO  testcases.TestNewsPage - Tag created
+19:06:46.565 [main] DEBUG testcases.TestNewsPage - System navigates to News collection page (Expected result)
+19:06:46.599 [main] DEBUG testcases.TestNewsPage - System successfully saved as public
+19:06:51.663 [main] INFO  testcases.TestNewsPage - Check title
+19:06:51.902 [main] INFO  testcases.TestNewsPage - Check content
+19:06:51.951 [main] INFO  testcases.TestNewsPage - Check tag
+19:06:51.952 [main] INFO  testcases.TestNewsPage - Check image attached

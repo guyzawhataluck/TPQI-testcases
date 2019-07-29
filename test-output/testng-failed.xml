@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="resources.ExtentReporterNG"/>
-    <listener class-name="testcases.Listeners"/>
-  </listeners>
-  <test name="LoginLandingPage">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
-      <class name="testcases.TestLandingPage"/>
+      <class name="testcases.TestNewsPage"/>
     </classes>
-  </test> <!-- LoginLandingPage -->
-  <test name="LoginLandingPage(failed)">
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
     <classes>
-      <class name="testcases.TestLandingPage">
+      <class name="testcases.TestNewsPage">
         <methods>
-          <include name="FillLoginForm" invocation-numbers="1"/>
+          <include name="ClickOnNews"/>
+          <include name="SaveAndPublishNews"/>
+          <include name="DraftNews"/>
           <include name="OpenBrowser"/>
-          <include name="CloseBrowser"/>
+          <include name="DeleteNews"/>
+          <include name="PreviewNews"/>
+          <include name="RedirectToNewsPage"/>
         </methods>
-      </class> <!-- testcases.TestLandingPage -->
+      </class> <!-- testcases.TestNewsPage -->
     </classes>
-  </test> <!-- LoginLandingPage(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

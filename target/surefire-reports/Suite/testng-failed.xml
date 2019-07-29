@@ -5,9 +5,14 @@
     <listener class-name="resources.ExtentReporterNG"/>
     <listener class-name="testcases.Listeners"/>
   </listeners>
-  <test name="LandingPage">
+  <test name="NewsPage">
     <classes>
-      <class name="testcases.TestLandingPage"/>
+      <class name="testcases.TestNewsPage">
+        <methods>
+          <include name="DraftNews"/>
+          <include name="SaveAndPublishNews"/>
+        </methods>
+      </class> <!-- testcases.TestNewsPage -->
     </classes>
-  </test> <!-- LandingPage -->
+  </test> <!-- NewsPage -->
 </suite> <!-- Failed suite [Suite] -->

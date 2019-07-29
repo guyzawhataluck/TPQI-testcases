@@ -20,8 +20,10 @@ public class Base {
 	public static WebDriver driver;
 	private String browser = "chrome";
 	protected String url = "https://tpqi-demo.jigsawgroups.work/";
-
+	String userdir = System.getProperty("user.dir");
+	
 	public WebDriver initializeDriver() {
+		
 		DesiredCapabilities ch = DesiredCapabilities.chrome();
 		// ch.acceptInsecureCerts();
 		ch.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
@@ -32,7 +34,7 @@ public class Base {
 		c.merge(ch);
 
 		if (browser == "chrome") {
-			System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Automation\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", userdir+"/chromedriver.exe");
 			driver = new ChromeDriver(c);
 		} else if (browser == "firefox") {
 
@@ -45,7 +47,7 @@ public class Base {
 
 	public void TakeScreenshot(String result) throws IOException {
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileHandler.copy(src, new File("C:\\Program Files\\Automation\\TPQI_test\\Pictures\\" + result + ".png"));
+		FileHandler.copy(src, new File(userdir+"/Pictures/" + result + ".png"));
 	}
 
 	public void JavaExeClick(WebElement element) {

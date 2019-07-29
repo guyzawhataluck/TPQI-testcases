@@ -22,7 +22,7 @@ public class HomePage extends Base {
 	public By bookmarkicon = By.cssSelector("a[data-url*='bookmarks']");
 	public By chaticon = By.cssSelector("a[data-url*='chat']");
 	public By chattab = By.xpath("//*[@id=\"notiChat_chat_tab_container\"]/li[1]");
-	public By notiicon = By.xpath("//*[@id=\"site-navbar-collapse\"]/ul[2]/li[5]/a");
+	public By notiicon = By.xpath("//*[@id=\"site-navbar-collapse\"]/ul[2]/li[6]/a");
 	public By sitemapicon = By.xpath("//*[@id=\"site-navbar-collapse\"]/ul[2]/li[6]/a");
 	public By sidenavcontent = By.cssSelector("li[class*='scrollable-content']");
 	public By postbox = By.xpath("/html/body/div[2]/div[3]/div/div[1]/div/section[1]");

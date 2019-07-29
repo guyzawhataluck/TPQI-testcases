@@ -5,21 +5,18 @@
 		<listener class-name="resources.ExtentReporterNG" />
 		<listener class-name="testcases.Listeners" />
 	</listeners>
-	<test name="LandingPage">
+	<test name="NewsPage">
 		<classes>
-			<class name="testcases.TestLandingPage">
+			<class name="testcases.TestNewsPage">
+				<methods>
+					<include name="DraftNews" />
+					<include name="SaveAndPublishNews" />
+				</methods>
 			</class>
+
 		</classes>
 	</test> <!-- Test -->
-	<test name="HomePage">
-		<classes>
-			<class name="testcases.TestHomePage">
-			<methods>
-			<include name= "Post"/>
-			</methods>
-			</class>
-		</classes>
-	</test> <!-- Test -->
+
 
 
 </suite> <!-- Suite -->

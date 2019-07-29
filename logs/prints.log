@@ -1,0 +1,9 @@
+19:06:54.923 [main] INFO  testcases.TestNewsPage - Successfully logged out
+19:07:12.858 [main] INFO  testcases.TestNewsPage - Successfully logged in with user account
+19:07:31.109 [main] INFO  testcases.TestNewsPage - Arrived at News Page
+19:07:41.157 [main] DEBUG testcases.TestNewsPage - User account can view public news
+19:07:43.530 [main] INFO  testcases.TestNewsPage - Successfully logged out from user account
+19:07:59.268 [main] INFO  testcases.TestNewsPage - Successfully logged in with Admin account
+19:08:14.036 [main] INFO  testcases.TestNewsPage - Arrived at News Page
+19:08:17.167 [main] INFO  testcases.TestNewsPage - Successfully logged out
+19:08:17.445 [main] INFO  testcases.TestNewsPage - Browser Closed
